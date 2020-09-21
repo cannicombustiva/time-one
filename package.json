@@ -5,7 +5,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "yarn ts:check && yarn test",
+      "pre-push": "yarn ts:check",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
